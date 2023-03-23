@@ -57,7 +57,7 @@ img {
   justify-content: center;
   padding: 0.75rem 1.65rem;
 
-  color: black;
+  color: rgb(36, 32, 32);
   font-weight: 500;
   font-size: 15px;
   line-height: 1;
@@ -80,7 +80,7 @@ form {
 }
 
 .search-form {
-  background-color: rgb(41, 64, 156);
+  background-color: rgb(123, 123, 172);
 }
 
 .input {
