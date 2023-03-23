@@ -103,6 +103,10 @@ onloadMore = e => {
   }
 };
 
+refs.form.addEventListener('submit', onSubmit);
+refs.loadMore.addEventListener('click', onloadMore);
+// refs.loadMore.addEventListener('click', hendleloadMore);
+
 // const hendleloadMore = e => {
 //   if (page > totalHits) {
 //     refs.loadMore.style.display = 'none';
@@ -116,10 +120,6 @@ onloadMore = e => {
 //     Notiflix.Notify.info(`Hooray! We found ${totalHits} images.`);
 //   }
 // };
-
-refs.form.addEventListener('submit', onSubmit);
-refs.loadMore.addEventListener('click', onloadMore);
-// refs.loadMore.addEventListener('click', hendleloadMore);
 
 // onButtonIntersect = entities => {
 //   const [button] = entities;
