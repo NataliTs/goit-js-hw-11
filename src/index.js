@@ -90,7 +90,7 @@ const onSubmit = e => {
   e.target.elements.searchQuery.value = '';
 };
 
-onloadMore = e => {
+const onloadMore = e => {
   page += 1;
   console.log(page);
   fetchPhotos();
